@@ -1,0 +1,9 @@
+﻿  FileName.c
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak2\Zadatak2\Zadatak2\FileName.c(28,18): warning C4133: '=': incompatible types - from 'Person *' to 'Person *'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak2\Zadatak2\Zadatak2\FileName.c(35,12): warning C4133: '=': incompatible types - from 'Person *' to 'Person *'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak2\Zadatak2\Zadatak2\FileName.c(51,11): warning C4133: '=': incompatible types - from 'Person *' to 'Person *'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak2\Zadatak2\Zadatak2\FileName.c(53,16): warning C4133: '=': incompatible types - from 'Person *' to 'Person *'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak2\Zadatak2\Zadatak2\FileName.c(62,11): warning C4133: '=': incompatible types - from 'Person *' to 'Person *'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak2\Zadatak2\Zadatak2\FileName.c(73,10): warning C4133: '=': incompatible types - from 'Person *' to 'Person *'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak2\Zadatak2\Zadatak2\FileName.c(82,11): warning C4133: '=': incompatible types - from 'Person *' to 'Person *'
+  Zadatak2.vcxproj -> C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak2\Zadatak2\x64\Debug\Zadatak2.exe
