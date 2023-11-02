@@ -1,3 +1,11 @@
+﻿/*1. Napisati program koji prvo pročita koliko redaka ima datoteka, tj.koliko ima studenata
+zapisanih u datoteci.Nakon toga potrebno je dinamički alocirati prostor za niz struktura
+studenata(ime, prezime, bodovi) i učitati iz datoteke sve zapise.Na ekran ispisati ime,
+prezime, apsolutni i relativni broj bodova.
+Napomena: Svaki redak datoteke sadrži ime i prezime studenta, te broj bodova na kolokviju.
+relatvan_br_bodova = br_bodova / max_br_bodova * 100 */
+
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
@@ -9,21 +17,21 @@
 #define MAXBOD 50
 
 typedef struct {
-    char ime[MAXNAME];
-    char prezime[MAXNAME];
-    int bodovi;
+    char name[MAXNAME];
+    char surname[MAXNAME];
+    int points;
 }Student;
 
-int brojacRedova(char imeDatoteke[MAXNAME]) {
-    int brojac = 0;
+int numberOfRows(char imeDatoteke[MAXNAME]) {
+    int counter = 0;
     FILE* fp = NULL;
 
     fp = fopen(imeDatoteke, "r");
     if (fp == NULL) {
-        printf("\nGreska u otvaranju datoteke!");
+        printf("\nFile failed to open!");
     }
     else {
-        printf("\nUspjesno otvaranje datoteke!");
+        printf("\nFile opened!");
     }
 
     char buffer[MAXRED] = { 0 };
@@ -31,42 +39,42 @@ int brojacRedova(char imeDatoteke[MAXNAME]) {
     while (!feof(fp)) {
         fgets(buffer, MAXRED, fp);
         if (strcmp("\n", buffer) != 0) {
-            brojac++;
+            counter++;
         }
     }
 
     fclose(fp);
-    return brojac;
+    return counter;
 }
 
-void citanjeStud(Student* stud, int brStud, char imeDatoteke[MAXNAME]) {
+void loadStud(Student* stud, int brStud, char imeDatoteke[MAXNAME]) {
     FILE* fp = NULL;
     int i = 0;
 
     fp = fopen(imeDatoteke, "r");
 
     if (fp == NULL) {
-        printf("\nGreska u otvaranju datoteke!");
+        printf("\nFile failed to open!");
     }
     else {
-        printf("\nUspjesno otvaranje datoteke!");
+        printf("\nFile opened!");
     }
 
     for (i = 0; i < brStud; i++) {
-        fscanf(fp, "%s %s %d\n", (stud + i)->ime, (stud + i)->prezime, &((stud + i)->bodovi));
+        fscanf(fp, "%s %s %d\n", (stud + i)->name, (stud + i)->surname, &((stud + i)->points));
     }
 
     fclose(fp);
     return;
 }
 
-void ispisStud(Student* stud, int brStud) {
+void printStud(Student* stud, int brStud) {
     double prosjek = 0;
     int i = 0;
 
     for (i = 0; i < brStud; i++) {
-        prosjek = (double)(stud + i)->bodovi / MAXBOD;
-        printf("\nStudent %s %s imao je %d bodova, odnosno %.2lf posto (relativni bodovi).", (stud + i)->ime, (stud + i)->prezime, (stud + i)->bodovi, prosjek * 100);
+        prosjek = (double)(stud + i)->points / MAXBOD;
+        printf("\nStudent %s %s has %d points,  %.2lf percent (relative points).", (stud + i)->name, (stud + i)->surname, (stud + i)->points, prosjek * 100);
     }
 }
 
@@ -77,38 +85,38 @@ int main() {
     FILE* test = NULL;
 
     while (test == NULL) {
-        printf("\nMolimo upi�ite ime datoteke sa listom studenata:\n");
+        printf("\nEnter file name with list od students:\n");
         scanf("%s", imeDatoteke);
 
         test = fopen(imeDatoteke, "r");
 
         if (test == NULL) {
-            printf("\nGreska u otvaranju datoteke!");
+            printf("\nFile failed to open!");
         }
         else {
-            printf("\nUspjesno otvaranje datoteke!");
+            printf("\nFile opened!");
             fclose(test);  // zatvori otvorenu datoteku
         }
 
         getchar();
     }
 
-    int brojStudenata = 0;
-    brojStudenata = brojacRedova(imeDatoteke);
+    int numberStud = 0;
+    numberStud = numberOfRows(imeDatoteke);
 
     Student* stud = NULL;
-    stud = (Student*)malloc(brojStudenata * sizeof(Student));
+    stud = (Student*)malloc(numberStud * sizeof(Student));
 
     if (stud == NULL) {
-        printf("Alokacija neuspjesna.\n");
+        printf("Aloccation failed.\n");
     }
     else {
-        printf("Alokacija je uspjesna.\n");
+        printf("Aloccation succesfull.\n");
     }
 
-    citanjeStud(stud, brojStudenata, imeDatoteke);
+    loadStud(stud, numberStud, imeDatoteke);
 
-    ispisStud(stud, brojStudenata);
+    printStud(stud, numberStud);
 
     free(stud);
 
