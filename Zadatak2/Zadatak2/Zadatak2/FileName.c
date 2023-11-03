@@ -63,7 +63,7 @@ Person* findBySurname(Person* head, char surname[]) {			//traži dok se ne podud
 	}
 	return NULL;
 }
-Person* deletePerson(Person* head, char surname[]) {				//kopira s interneta, proučit kasnije
+Person* deletePerson(Person* head, char surname[]) {				
 	Person* prev = NULL;
 	Person* current = head;
 
