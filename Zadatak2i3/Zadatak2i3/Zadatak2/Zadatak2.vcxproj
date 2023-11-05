@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="FileName.c" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="ljudi.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
