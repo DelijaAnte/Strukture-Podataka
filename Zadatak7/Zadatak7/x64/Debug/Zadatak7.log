@@ -1,0 +1,9 @@
+﻿  FileName.c
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak7\Zadatak7\FileName.c(33,7): warning C4101: 'buffer': unreferenced local variable
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak7\Zadatak7\FileName.c(71,7): warning C4101: 'c': unreferenced local variable
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak7\Zadatak7\FileName.c(119,34): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak7\Zadatak7\FileName.c(119,34): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak7\Zadatak7\FileName.c(102): warning C4716: 'makedirectory': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak7\Zadatak7\FileName.c(136): warning C4715: 'print': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak7\Zadatak7\FileName.c(184): warning C4715: 'goback': not all control paths return a value
+  Zadatak7.vcxproj -> C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak7\x64\Debug\Zadatak7.exe
