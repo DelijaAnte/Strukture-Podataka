@@ -1,0 +1,5 @@
+﻿  FileName.c
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak8\Zadatak8\FileName.c(94,3): warning C4033: 'levelOrder' must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak8\Zadatak8\FileName.c(114): warning C4715: 'levelOrder': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak8\Zadatak8\FileName.c(90): warning C4716: 'postOrder': must return a value
+  Zadatak8.vcxproj -> C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak8\x64\Debug\Zadatak8.exe
