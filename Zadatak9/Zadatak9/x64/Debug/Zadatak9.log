@@ -1,0 +1,4 @@
+﻿  FileName.c
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak9\Zadatak9\FileName.c(117): warning C4715: 'inorderprint': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak9\Zadatak9\FileName.c(156): warning C4715: 'finorderprint': not all control paths return a value
+  Zadatak9.vcxproj -> C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zadatak9\x64\Debug\Zadatak9.exe
