@@ -1,0 +1,21 @@
+﻿  FileName.c
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(133,4): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(192,31): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(259,4): warning C4047: 'return': 'countries' differs in levels of indirection from 'int'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(95): warning C4716: 'readfileb': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(153): warning C4715: 'openfilea': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(87): warning C4716: 'readfilea': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(176): warning C4716: 'openfileb': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(228): warning C4716: 'insertcity': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(199): warning C4716: 'listinsert': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(301): warning C4716: 'citylist': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(283): warning C4715: 'treeinsert': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(334): warning C4716: 'printa': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(345): warning C4715: 'gradprinta': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(250): warning C4715: 'cityinsert': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(323): warning C4715: 'listcity': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(357): warning C4715: 'printb': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(367): warning C4716: 'gradprintb': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(384): warning C4716: 'lobby': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\Zadatak10\FileName.c(401): warning C4715: 'treesearch': not all control paths return a value
+  Zadatak10.vcxproj -> C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak10\x64\Debug\Zadatak10.exe

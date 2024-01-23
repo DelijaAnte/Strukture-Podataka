@@ -1,0 +1,12 @@
+﻿  FileName.c
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(50,13): warning C4047: 'function': 'hash' differs in levels of indirection from 'countries_ *(*)[11]'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(50,13): warning C4024: 'createhash': different types for formal and actual parameter 1
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(52,11): warning C4047: 'function': 'countries *' differs in levels of indirection from 'hash_ *'
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(52,11): warning C4024: 'readfile': different types for formal and actual parameter 1
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(85): warning C4715: 'readfile': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(139): warning C4716: 'listmaker': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(213): warning C4715: 'townprint': not all control paths return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(191): warning C4716: 'printall': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(202): warning C4716: 'print': must return a value
+C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\Zzadatak11\FileName.c(63): warning C4716: 'createhash': must return a value
+  Zzadatak11.vcxproj -> C:\Users\anted\OneDrive\Radna površina\Strukture-Podataka\Zzadatak11\x64\Debug\Zzadatak11.exe
